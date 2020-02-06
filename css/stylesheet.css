@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: lightgrey;
+  background-image: url('../img/sky_background.jpeg');
+}
+
+.heading {
+  text-align: center;
+  margin: auto;
+  color: grey;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.quotes {
+  text-align: center;
+}
+
+.our_info {
+  text-align: left;
+}
+
+.our_friends {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
